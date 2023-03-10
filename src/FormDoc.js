@@ -57,7 +57,7 @@ export default function FormDoc({ handleSubmit }) {
           </Label>
           <Input
             id="exampleSelect"
-            name="select"
+            name="city"
             type="select"
             onChange={formCreateFunction}
           >
@@ -81,8 +81,10 @@ export default function FormDoc({ handleSubmit }) {
         </Button>
       </Form>
       <hr />
-      <Link to="/list" color="success" size="m">
-        Data List
+      <Link to="/list">
+        <Button color="success" size="m">
+          Data List
+        </Button>
       </Link>
     </div>
   );
